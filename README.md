@@ -9,13 +9,9 @@ iconv is a libiconv wrapper for go. libiconv Convert string to requested charact
 iconv project's homepage is: https://github.com/go-iconv/iconv.
 Fork from : https://github.com/qiniu/iconv.
 
-why go-iconv ?
+why go-iconv?
 
 support gopkg.in API
-
-merge new pull request faster:
-
-for example support golang 1.6.x etc.
 
 # Document
 
@@ -38,7 +34,7 @@ package main
 
 import (
 	"fmt"
-	"import "gopkg.in/iconv.v1""
+	"gopkg.in/iconv.v1"
 )
 
 func main() {
@@ -63,7 +59,7 @@ package main
 
 import (
 	"fmt"
-	"import "gopkg.in/iconv.v1""
+	"gopkg.in/iconv.v1"
 )
 
 func main() {
@@ -95,7 +91,7 @@ import (
 	"fmt"
 	"io"
 	"os"
-	"import "gopkg.in/iconv.v1""
+	"gopkg.in/iconv.v1"
 )
 
 func main() {
